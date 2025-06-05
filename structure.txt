@@ -1,0 +1,64 @@
+.
+├── backend
+│   ├── app.js
+│   ├── data.db
+│   ├── package-lock.json
+│   └── package.json
+├── data.db
+├── eslint.config.mjs
+├── jsconfig.json
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── public
+│   └── images
+│       └── news
+│           ├── bimstec-summit.jpg
+│           ├── gene-hackman.jpg
+│           ├── lisa-oscar.jpg
+│           ├── us-tariff.jpg
+│           └── val-kilmer.jpg
+├── README.md
+├── src
+│   ├── app
+│   │   ├── (content)
+│   │   │   ├── archive
+│   │   │   │   ├── @archive
+│   │   │   │   ├── @latest
+│   │   │   │   └── layout.js
+│   │   │   ├── layout.js
+│   │   │   └── news
+│   │   │       ├── [slug]
+│   │   │       ├── loading.js
+│   │   │       └── page.js
+│   │   ├── (marketing)
+│   │   │   ├── about
+│   │   │   │   └── page.js
+│   │   │   ├── layout.js
+│   │   │   └── page.js
+│   │   ├── api
+│   │   │   ├── news
+│   │   │   │   ├── [slug]
+│   │   │   │   ├── route.js
+│   │   │   │   └── stats
+│   │   │   └── route.js
+│   │   ├── globals.css
+│   │   ├── icon.png
+│   │   ├── layout.js
+│   │   ├── middleware.js
+│   │   └── not-found.js
+│   ├── assets
+│   │   └── logo.png
+│   ├── components
+│   │   ├── FilteredNews.js
+│   │   ├── FilterHeader.js
+│   │   ├── MainHeader.js
+│   │   ├── modal-backdrop.js
+│   │   ├── NavLink.js
+│   │   └── NewsList.js
+│   └── lib
+│       └── news.js
+└── structure.txt
+
+22 directories, 40 files
